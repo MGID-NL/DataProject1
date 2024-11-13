@@ -1,7 +1,10 @@
+(1)
 df.dtypes = welke kolommen en welk type = dftypes function 
+===
 
 Maken van virtuele omgeving: python3 -m venv .venv (source .venv/bin/activate om te activeren de venv)
 Als je deze omgeving gebruikt en je bent klaar: pip3 freeze > requirements.txt hier maak je dan welke dingen nodig zijn om jou software te runnen.
+===
 
 INC1:
 Ik kreeg de melding dat het bestand jobs.csv niet gevonden werd
@@ -14,4 +17,31 @@ print("Huidige werkdirectory:", os.getcwd())
 Huidige werkdirectory: /Users/marcgraventein/Desktop/MGID.NL/DataProject1/NoteBooks
 
 omdat ik de /NoteBooks zag staan had ik door dat de data map te hoog lag 
+===
+
+(2)
+df.iloc[nummer] = df.iloc[0] --> Dan krijg je de eerste in de list van de df met alle relevante data:
+(voorbeeld)
+job_title_short                                       Senior Data Engineer
+job_title                Senior Clinical Data Engineer / Principal Clin...
+job_location                                                 Watertown, CT
+job_via                                                    via Work Nearby
+job_schedule_type                                                Full-time
+job_work_from_home                                                   False
+search_location                                       Texas, United States
+job_posted_date                                        2023-06-16 13:44:15
+job_no_degree_mention                                                False
+job_health_insurance                                                 False
+job_country                                                  United States
+salary_rate                                                            NaN
+salary_year_avg                                                        NaN
+salary_hour_avg                                                        NaN
+company_name                                          Boehringer Ingelheim
+job_skills                                                             NaN
+job_type_skills                                                        NaN
+Name: 0, dtype: object
+
+Je kan ook [0:10] dus 0 tot en met 9 (exclusief 10) je krijgt dan een tabel 
+===
+
 

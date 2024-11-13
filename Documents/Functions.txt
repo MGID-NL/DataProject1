@@ -1,0 +1,2 @@
+dtypes = welke kolommen en welk type
+iloc[nummer] = Record of records in de range met info
