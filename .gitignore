@@ -1,0 +1,6 @@
+# CSV
+*.csv
+# Virtuele omgevingen
+.venv/
+env/
+venv/

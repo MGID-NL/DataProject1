@@ -1,0 +1,17 @@
+df.dtypes = welke kolommen en welk type = dftypes function 
+
+Maken van virtuele omgeving: python3 -m venv .venv (source .venv/bin/activate om te activeren de venv)
+Als je deze omgeving gebruikt en je bent klaar: pip3 freeze > requirements.txt hier maak je dan welke dingen nodig zijn om jou software te runnen.
+
+INC1:
+Ik kreeg de melding dat het bestand jobs.csv niet gevonden werd
+Ik had een MAP Data en een MAP Notebooks 
+
+En wanneer ik de map Data in Notebookds sleepte werkte het wel 
+
+import os
+print("Huidige werkdirectory:", os.getcwd())
+Huidige werkdirectory: /Users/marcgraventein/Desktop/MGID.NL/DataProject1/NoteBooks
+
+omdat ik de /NoteBooks zag staan had ik door dat de data map te hoog lag 
+
